@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Formulario PHP</title>
-	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<h1>Formulario PHP</h1>
@@ -59,7 +59,7 @@
 	</form>
 	<?php
 		if (isset($_POST['submit'])) {
-			require ("registro.php");
+			require ("control/registro.php");
 		}
 	?>
 </body>
